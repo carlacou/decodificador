@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <img src="assets/images/logo-alura.png" alt="logo" />
+      </div>
+    </header>
+    <main class="container">
+      <form class="form">
+        <textarea class="textarea" placeholder="Digite seu texto..."></textarea>
+        <label class="label"
+          ><img
+            src="assets/images/exclamation-circle-fill.png"
+            alt="ponto de exlamação"
+          />Apenas letras minúsculas e minúsculas sem acento</label
+        >
+        <div class="form__buttons">
+          <button id="btn-encrypt" class="btn">Criptografar</button>
+          <button id="btn-decrypt" class="btn">Descriptografar</button>
+        </div>
+      </form>
+      <div class="result__container">
+        <div class="no__result">
+          <img
+            class="no-result__image"
+            src="assets/images/no-result.svg"
+            alt=""
+          />
+          <h2>Nenhuma mensagem encontrada</h2>
+          <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Alura Challenge - Oracle Next Education</p>
+      <p class="footer__text">Desenvolvido por Carla Alves</p>
+    </footer>
+  </body>
+</html>

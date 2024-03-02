@@ -57,11 +57,14 @@ body {
   font-size: 0.75rem;
   color: var(--gray-400);
   margin-left: 240px;
+  position: absolute;
+  bottom: 100px;
+  right: 1120px;
 }
 
 .form__buttons {
   display: flex;
-  margin-top: 500px;
+  margin-top: 580px;
   margin-left: 240px;
   gap: 24px;
 }
@@ -98,11 +101,15 @@ body {
 }
 
 .result__container {
-  width: 400px;
-  height: 800px;
+  position: relative;
+  width: 100%;
+  max-width: 340px;
   background-color: white;
   margin-top: 40px;
-  border-radius: 32px;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 15px #0002;
+  overflow-y: hidden;
 }
 
 .no-result__image {
@@ -122,6 +129,6 @@ body {
   padding: 0 1rem;
 }
 
-.footer__text{
+.footer__text {
   color: white;
 }

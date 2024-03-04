@@ -109,6 +109,7 @@ body {
   padding: 2rem;
   border-radius: 2rem;
   box-shadow: 5px 5px 15px #0002;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
 

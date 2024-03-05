@@ -1,9 +1,9 @@
 import { patterns } from "./patterns.js";
 
 export function decrypt(text) {
-    let decrypt = text.toLoewrCase()
+    let decrypted = text.toLoewrCase()
     patterns.forEach(p => {
-        decrypt = decrypt.replaceAll(p.out, p.in)
+        decrypted = decrypted.replaceAll(p.out, p.in)
     })
-    return decrypt
+    return decrypted
 }

@@ -1,4 +1,4 @@
-import { patterns  } from "./patterns";
+import { patterns  } from "./patterns.js";
 
 export function encrypt(text) {
     const textLower = text.toLowerCase()
